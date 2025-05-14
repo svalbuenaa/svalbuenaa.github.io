@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Galleries | Sergio Valbuena</title>
+    <link>https://svalbuenaa.github.io/gallery.html</link>
+      <atom:link href="https://svalbuenaa.github.io/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <description>Galleries</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://svalbuenaa.github.io/media/logo_hu_fd705973811c1be4.png</url>
+      <title>Galleries</title>
+      <link>https://svalbuenaa.github.io/gallery.html</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://svalbuenaa.github.io/gallery/systems.html</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://svalbuenaa.github.io/gallery/systems.html</guid>
+      <description>&lt;h2 id=&#34;systems-that-interest-me&#34;&gt;Systems that interest me&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Soft matter systems, such as polymers and proteins&lt;/li&gt;
+&lt;li&gt;Fluids in confined environments or near interfaces&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://svalbuenaa.github.io/gallery/methods.html</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://svalbuenaa.github.io/gallery/methods.html</guid>
+      <description>&lt;h2 id=&#34;preferred-method&#34;&gt;Preferred method&lt;/h2&gt;
+&lt;p&gt;Molecular simulations, particulalry when it can be compared to experiments like neutrons or NMR.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

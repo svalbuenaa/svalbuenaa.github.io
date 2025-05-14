@@ -13,12 +13,9 @@ main:
   - name: Education
     url: '#education'
     weight: 30
-  - name: News
-    url: '#news'
-    weight: 40
   - name: Publications
     url: '#publications'
-    weight: 50
+    weight: 40
   #- name: Research
   #  url: '#gallery'
   #  weight: 20

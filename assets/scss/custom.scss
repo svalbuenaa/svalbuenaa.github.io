@@ -280,4 +280,46 @@ h2, h3 {
     }
   }
 }
+
+
+}
+
+/* Target experience cards specifically using the widget's context */
+#experience .card {
+  width: 110% !important; /* Adjust as needed */
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 767px) {
+  #experience .card {
+    width: 95% !important;
+  }
+}
+
+/* Increase the size of the experience card logo icons */
+#experience .card .mr-2.mb-2 img {
+  width: 100px !important; /* Adjust the width as needed */
+  height: 100px !important; /* Adjust the height as needed */
+}
+
+/* Adjust icon size for smaller screens if needed */
+@media (max-width: 767px) {
+  #experience .card .mr-2.mb-2 img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+
+/* Adjust the position of the timeline circles */
+#experience .row.experience > .col-auto.text-center.flex-column {
+  margin-left: -10% !important; /* Match the negative margin of the cards */
+}
+
+/* Adjust for smaller screens if the overlap is an issue */
+@media (max-width: 767px) {
+  #experience .row.experience > .col-auto.text-center.flex-column {
+    margin-left: -10% !important; /* Adjust for smaller screens */
+  }
 }

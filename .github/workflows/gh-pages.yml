@@ -3,21 +3,18 @@ name: Deploy GitHub Pages
 on:
   push:
     branches:
-      - main  # Trigger on pushes to the main branch
-  pull_request: # Trigger on pull requests as well, useful for previewing
+      - master  # Set a branch name to trigger deployment
+  pull_request:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest # Use the latest Ubuntu
+    runs-on: ubuntu-20.04
     permissions:
-      contents: write  # Allows the action to write to the repository
-      pages: write    # Required for the deploy-pages action
-      id-token: write  # Required for the deploy-pages action
+      contents: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4 # Use the latest checkout action
+      - uses: actions/checkout@v3
         with:
           submodules: true  # Fetch any Git submodules (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -25,20 +22,18 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.140.2' # Keep your specified Hugo version
+          hugo-version: 0.140.2
           extended: true
 
       - name: Build
         run: hugo --minify
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        # If you're changing the branch from main, 
+        # also change the `main` in `refs/heads/main` 
+        # below accordingly.
+        if: ${{ github.ref == 'refs/heads/master' }}
         with:
-          name: hugo-site
-          path: ./public
-
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
-        with:
-          artifact_name: hugo-site
-          # The 'folder' parameter is no longer needed with artifact upload
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

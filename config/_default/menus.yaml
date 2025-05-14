@@ -5,14 +5,20 @@
 
 main:
   - name: Home
-    url: '/index.html'
+    url: '#top'
     weight: 10
+  - name: Experience
+    url: '#experience'
+    weight: 20
+  - name: Education
+    url: '#education'
+    weight: 30
   - name: News
     url: '#news'
-    weight: 50
+    weight: 40
   - name: Publications
     url: '#publications'
-    weight: 30
+    weight: 50
   #- name: Research
   #  url: '#gallery'
   #  weight: 20

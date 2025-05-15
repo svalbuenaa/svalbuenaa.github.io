@@ -12,10 +12,14 @@ experience:
     date_end: "2025-04-30"
     company_logo: "FMI-logo"
     description: |
-      * SS
-      * SS
+      * Led an end-to-end scientific project, managing cross-functional collaborations, timelines and deliverables from conception to completion
+      * Generated and integrated multi-dimensional data to develop testable hypotheses
+      * Mentored team-members and supervised an MSc thesis
+      <span style="display: block; margin-top: 0.5em; margin-bottom: 0em;"></span>
+        <li style="list-style-type: circle;"><b>Identified a time window after learning necessary for memory formation</b></li>
+        <li style="list-style-type: circle;"><b>Unveiled the role of a subtype of neuron in memory storage</b></li>
       <span style="display: block; margin-top: 1em; margin-bottom: 1em;"></span>
-      <span class="badge-experience-card">SS</span>
+      <span class="badge-experience-card">project management</span><span class="badge-experience-card">microscopy</span><span class="badge-experience-card">histology</span><span class="badge-experience-card">animal experimentation</span><span class="badge-experience-card">optogenetics</span><span class="badge-experience-card">viral/drug delivery</span>
 
   - title: "Computational Biologist"
     company: "Instituto de Neurociencias (CSIC, University Miguel Hernández)"

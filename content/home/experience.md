@@ -32,7 +32,7 @@ experience:
         <li style="list-style-type: circle;"><b>Unveiled novel molecularly-defined cell populations in the dentate gyrus</b></li>
         <li style="list-style-type: circle;"><b>Identified asymmetric alterations to cell populations caused by epilepsy</b></li>
       <span style="display: block; margin-top: 1em; margin-bottom: 1em;"></span>
-      <span class="badge-experience-card">NGS</span><span class="badge-experience-card">sc-RNAseq</span><span class="badge-experience-card">Python</span><span class="badge-experience-card">R</span><span class="badge-experience-card">seurat</span><span class="badge-experience-card">CellRanger</span><span class="badge-experience-card">CellBender</span>
+      <span class="badge-experience-card">NGS</span><span class="badge-experience-card">sc-RNAseq</span><span class="badge-experience-card">Python</span><span class="badge-experience-card">R</span><span class="badge-experience-card">seurat</span>
 
   - title: "Computational Biology trainee"
     company: "Friedrich Miescher Institute for Biomedical Research (Novartis, University of Basel)"

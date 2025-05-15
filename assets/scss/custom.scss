@@ -323,3 +323,21 @@ h2, h3 {
     margin-left: -10% !important; /* Adjust for smaller screens */
   }
 }
+
+.badge-experience-card {
+  background-color: #e9ecef;
+  color: #495057;
+  padding: 0.25em 0.6em;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-right: 0.8em;
+}
+
+.card .card-body {
+  padding-bottom: 0 !important;
+}
+
+.card-body .section-subheading.exp-title {
+  font-size: 1.05rem; /* Adjust the size as needed */
+}

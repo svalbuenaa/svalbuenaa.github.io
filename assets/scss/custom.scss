@@ -284,6 +284,32 @@ h2, h3 {
 
 }
 
+/* Target education cards specifically using the widget's context */
+#education .card {
+  width: 105% !important; /* Adjust as needed */
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 767px) {
+  #education .card {
+    width: 95% !important;
+  }
+}
+
+/* Adjust the position of the education timeline circles */
+#education .row.experience > .col-auto.text-center.flex-column {
+  margin-left: -10% !important; /* Match the negative margin of the cards */
+}
+
+/* Adjust for smaller screens if the overlap is an issue */
+@media (max-width: 767px) {
+  #education .row.experience > .col-auto.text-center.flex-column {
+    margin-left: -10% !important; /* Adjust for smaller screens */
+  }
+}
+
 /* Target experience cards specifically using the widget's context */
 #experience .card {
   width: 105% !important; /* Adjust as needed */
@@ -307,6 +333,20 @@ h2, h3 {
 /* Adjust icon size for smaller screens if needed */
 @media (max-width: 767px) {
   #experience .card .mr-2.mb-2 img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+
+/* Increase the size of the education card logo icons */
+#education .card .mr-2.mb-2 img {
+  width: 100px !important; /* Adjust the width as needed */
+  height: 100px !important; /* Adjust the height as needed */
+}
+
+/* Adjust icon size for smaller screens if needed */
+@media (max-width: 767px) {
+  #education .card .mr-2.mb-2 img {
     width: 60px !important;
     height: 60px !important;
   }

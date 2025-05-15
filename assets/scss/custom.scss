@@ -332,6 +332,8 @@ h2, h3 {
   font-size: 0.8rem;
   font-weight: bold;
   margin-right: 0.8em;
+  white-space: normal; /* Allows text to wrap */
+  overflow-wrap: break-word; /* Forces line breaks if needed to prevent overflow */
 }
 
 .card .card-body {

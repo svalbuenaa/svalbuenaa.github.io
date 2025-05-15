@@ -327,14 +327,16 @@ h2, h3 {
 .badge-experience-card {
   background-color: #e9ecef;
   color: #495057;
-  padding: 0.25em 0.6em;
+  padding: 0.1em 0.6em;
   border-radius: 0.3rem;
   font-size: 0.8rem;
   font-weight: bold;
-  margin-right: 0.8em; /* Keep this for spacing between badges if they are inline */
-  white-space: normal; /* Allows text to wrap onto multiple lines */
-  overflow-wrap: break-word; /* Forces a break if a word is too long to fit */
+  margin-right: 0.8em; /* Existing horizontal spacing */
+  display: inline-block; /* Allows setting margins and width/height */
+  margin-bottom: 0.6em; /* Add vertical spacing for wrapping */
 }
+
+
 
 .card .card-body {
   padding-bottom: 0 !important;

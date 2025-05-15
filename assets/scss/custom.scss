@@ -324,18 +324,23 @@ h2, h3 {
   }
 }
 
+.badges-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em; /* Adjust spacing between badges as needed */
+}
+
 .badge-experience-card {
   background-color: #e9ecef;
   color: #495057;
-  padding: 0.1em 0.6em;
+  padding: 0.25em 0.6em;
   border-radius: 0.3rem;
   font-size: 0.8rem;
   font-weight: bold;
-  margin-right: 0.8em; /* Existing horizontal spacing */
-  display: inline-block; /* Allows setting margins and width/height */
-  margin-bottom: 0.6em; /* Add vertical spacing for wrapping */
+  margin-right: 0.5em; /* Adjust or remove if 'gap' provides enough spacing */
+  white-space: normal;
+  overflow-wrap: break-word;
 }
-
 
 
 .card .card-body {

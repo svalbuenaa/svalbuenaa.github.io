@@ -13,14 +13,9 @@ experience:
     date_end: "2025-01-30"
     company_logo: "UOC-logo"
     description: |
-      * Led an end-to-end scientific project, managing cross-functional collaborations, timelines and deliverables from conception to completion
-      * Generated and integrated multi-dimensional data to develop testable hypotheses
-      * Mentored team-members and supervised an MSc thesis
-      <span style="display: block; margin-top: 0.5em; margin-bottom: 0em;"></span>
-        <li style="list-style-type: circle;"><b>Identified a time window after learning necessary for memory formation</b></li>
-        <li style="list-style-type: circle;"><b>Unveiled the role of a subtype of neuron in memory storage</b></li>
+      * Acquired extensive expertise in programming languages and platforms, statistical and mathematical tools relevant for data analytics, data engineering, ethics and regulatory frameworks, as well as visualization and communication
       <span style="display: block; margin-top: 1em; margin-bottom: 1em;"></span>
-      <span class="badge-experience-card">project management</span><span class="badge-experience-card">microscopy</span><span class="badge-experience-card">histology</span><span class="badge-experience-card">animal experimentation</span><span class="badge-experience-card">optogenetics</span><span class="badge-experience-card">viral/drug delivery</span><span class="badge-experience-card"><i>in-vivo</i> electrophysiology</span>
+      <span class="badge-experience-card">Python</span><span class="badge-experience-card">R</span><span class="badge-experience-card">SQL</span><span class="badge-experience-card">data mining</span><span class="badge-experience-card">data visualization</span><span class="badge-experience-card">machine learning</span><span class="badge-experience-card">deep learning</span><span class="badge-experience-card">statistical modeling</span><span class="badge-experience-card">object-oriented programming</span>
 
   - title: "PhD in Neuroscience"
     company: "Universidad Miguel Hernández"
@@ -30,14 +25,9 @@ experience:
     date_end: "2019-07-30"
     company_logo: "UMH-logo"
     description: |
-      * Led an end-to-end scientific project, managing cross-functional collaborations, timelines and deliverables from conception to completion
-      * Generated and integrated multi-dimensional data to develop testable hypotheses
-      * Mentored team-members and supervised an MSc thesis
-      <span style="display: block; margin-top: 0.5em; margin-bottom: 0em;"></span>
-        <li style="list-style-type: circle;"><b>Identified a time window after learning necessary for memory formation</b></li>
-        <li style="list-style-type: circle;"><b>Unveiled the role of a subtype of neuron in memory storage</b></li>
+      * Developed a project studying genetic and physiology alterations in a mouse model of Down syndrome
       <span style="display: block; margin-top: 1em; margin-bottom: 1em;"></span>
-      <span class="badge-experience-card">project management</span><span class="badge-experience-card">microscopy</span><span class="badge-experience-card">histology</span><span class="badge-experience-card">animal experimentation</span><span class="badge-experience-card">optogenetics</span><span class="badge-experience-card">viral/drug delivery</span><span class="badge-experience-card"><i>in-vivo</i> electrophysiology</span>
+      <span class="badge-experience-card">project management</span><span class="badge-experience-card">microscopy</span><span class="badge-experience-card">histology</span><span class="badge-experience-card">animal experimentation</span><span class="badge-experience-card">immuno-assays</span><span class="badge-experience-card">patch-clamp electrophysiology</span>
 
   - title: "MSc in Neuroscience"
     company: "Universidad Miguel Hernández"
@@ -47,14 +37,9 @@ experience:
     date_end: "2013-06-30"
     company_logo: "UMH-logo"
     description: |
-      * Led an end-to-end scientific project, managing cross-functional collaborations, timelines and deliverables from conception to completion
-      * Generated and integrated multi-dimensional data to develop testable hypotheses
-      * Mentored team-members and supervised an MSc thesis
-      <span style="display: block; margin-top: 0.5em; margin-bottom: 0em;"></span>
-        <li style="list-style-type: circle;"><b>Identified a time window after learning necessary for memory formation</b></li>
-        <li style="list-style-type: circle;"><b>Unveiled the role of a subtype of neuron in memory storage</b></li>
+      * Major in Neuroscience with minors in cell and molecular biology
       <span style="display: block; margin-top: 1em; margin-bottom: 1em;"></span>
-      <span class="badge-experience-card">project management</span><span class="badge-experience-card">microscopy</span><span class="badge-experience-card">histology</span><span class="badge-experience-card">animal experimentation</span><span class="badge-experience-card">optogenetics</span><span class="badge-experience-card">viral/drug delivery</span><span class="badge-experience-card"><i>in-vivo</i> electrophysiology</span>
+      <span class="badge-experience-card">genetics</span><span class="badge-experience-card">cell culture</span><span class="badge-experience-card">histology</span><span class="badge-experience-card">immuno-assays</span><span class="badge-experience-card">patch-clamp electrophysiology</span>
 
   - title: "BSc in Biology"
     company: "Universidad de León"
@@ -64,13 +49,8 @@ experience:
     date_end: "2012-07-30"
     company_logo: "ULE-logo"
     description: |
-      * Led an end-to-end scientific project, managing cross-functional collaborations, timelines and deliverables from conception to completion
-      * Generated and integrated multi-dimensional data to develop testable hypotheses
-      * Mentored team-members and supervised an MSc thesis
-      <span style="display: block; margin-top: 0.5em; margin-bottom: 0em;"></span>
-        <li style="list-style-type: circle;"><b>Identified a time window after learning necessary for memory formation</b></li>
-        <li style="list-style-type: circle;"><b>Unveiled the role of a subtype of neuron in memory storage</b></li>
+      * Major in biology with minors in immunology, genetics, cell and molecular biology
       <span style="display: block; margin-top: 1em; margin-bottom: 1em;"></span>
-      <span class="badge-experience-card">project management</span><span class="badge-experience-card">microscopy</span><span class="badge-experience-card">histology</span><span class="badge-experience-card">animal experimentation</span><span class="badge-experience-card">optogenetics</span><span class="badge-experience-card">viral/drug delivery</span><span class="badge-experience-card"><i>in-vivo</i> electrophysiology</span>
+      <span class="badge-experience-card">microscopy</span><span class="badge-experience-card">immuno-assays</span><span class="badge-experience-card">histology</span><span class="badge-experience-card">HPLC</span>
 
 ---

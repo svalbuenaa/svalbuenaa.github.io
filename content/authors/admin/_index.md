@@ -48,22 +48,9 @@ social:
 highlight_name: true # Highlight the author in author lists? (true/false)
 ---
 
+<span style="display: block; height: 78px;"></span>
 ### About me ##
 
 I am a Neuroscientist with 10 years of experience managing Life Sciences projects. Passionate about using data-driven approaches to drive Biomedical Research
 
 <span style="display: block; height: 8px;"></span>
-
-### What I share on <a href="https://github.com/svalbuenaa" target="_blank" style="text-decoration: none;">GitHub</a> ##
-
-  - Input files for molecular simulations
-  - Scripts for preparing and analyzing simulations
-  - Data and scripts from my recent publications
-
-<span style="display: block; height: 8px;"></span>
-
-### My primary outreach projects ##
-
-  - <a href="https://github.com/lammpstutorials" target="_blank" style="text-decoration: none;">LAMMPS tutorials</a> for LAMMPS beginners
-  - <a href="https://github.com/mdcourse" target="_blank" style="text-decoration: none;">Guides</a> for implementing molecular simulations from scratch
-

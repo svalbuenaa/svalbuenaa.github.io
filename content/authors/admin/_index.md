@@ -51,6 +51,6 @@ highlight_name: true # Highlight the author in author lists? (true/false)
 <span style="display: block; height: 78px;"></span>
 ### About me ##
 
-I am a Neuroscientist with 10 years of experience managing Life Sciences projects. Passionate about using data-driven approaches to drive Biomedical Research
+I am a Neuroscientist with 10 years of experience managing Life Sciences projects. Passionate about using data-driven approaches to advance Biomedical Research
 
 <span style="display: block; height: 8px;"></span>
